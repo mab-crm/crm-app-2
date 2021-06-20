@@ -1,0 +1,80 @@
+{
+  "customers": [
+    {
+      "id": "OUi7yYk",
+      "name": "Abheetha",
+      "email": "abheetha@gmail.com",
+      "address": "Kandy",
+      "phone": "431231"
+    },
+    {
+      "name": "Lahiru",
+      "email": "lahiru@gmail.com",
+      "address": "Narahenpita",
+      "phone": "341231",
+      "id": "VeRNCqi"
+    },
+    {
+      "name": "Gishan",
+      "email": "gishan@gmail.com",
+      "address": "IDH",
+      "phone": "4325123",
+      "id": "EDHnKLf"
+    },
+    {
+      "name": "Martis",
+      "email": "martis@gmail.com",
+      "address": "Kelaniya",
+      "phone": "2054823",
+      "id": "2kkOaUd"
+    }
+  ],
+  "products": [
+    {
+      "id": "qwASDew",
+      "product_name": "Electric Drill",
+      "product_image": "Null",
+      "model_no": "MZ142E34",
+      "man_country": "Japan",
+      "category": "Electric",
+      "rating_value": " "
+    },
+    {
+      "product_name": "Electric Saw",
+      "model_no": "HSM1200",
+      "man_country": "Germany",
+      "category": "Electric",
+      "rating_value": "2",
+      "id": "wzMn2jh"
+    }
+  ],
+  "orders": [
+    {
+      "id": "LKijUY6",
+      "order_date": "2/11/2021",
+      "order_product": "Electric Saw",
+      "customer_name": "Mahasen Abheetha",
+      "order_address": "Colombo",
+      "no_items": "2",
+      "total": "25000.00"
+    },
+    {
+      "id": "OMiU8Jk",
+      "order_date": "2/14/2021",
+      "order_product": "Electric Drill",
+      "customer_name": "Kalhara Nipun",
+      "order_address": "Rajagiriya",
+      "no_items": "1",
+      "total": "17500.00"
+    },
+    {
+      "id": "kkIYHd2",
+      "order_date": "2/23/2021",
+      "order_product": "Electric Drill",
+      "customer_name": "Changa Janaka",
+      "order_address": "Koswatta",
+      "no_items": "3",
+      "total": "37250.00"
+    }
+  ]
+}

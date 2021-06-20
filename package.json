@@ -1,0 +1,16 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "Customer Relationship Management System",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000 --middlewares ./customer_range.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Rashini",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
